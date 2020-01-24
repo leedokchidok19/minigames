@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/minigames/static/css/main.b8a4c64a.chunk.css",
+    "main.js": "/minigames/static/js/main.b362f975.chunk.js",
+    "main.js.map": "/minigames/static/js/main.b362f975.chunk.js.map",
+    "runtime-main.js": "/minigames/static/js/runtime-main.d6bf7404.js",
+    "runtime-main.js.map": "/minigames/static/js/runtime-main.d6bf7404.js.map",
+    "static/js/2.41e4b2c6.chunk.js": "/minigames/static/js/2.41e4b2c6.chunk.js",
+    "static/js/2.41e4b2c6.chunk.js.map": "/minigames/static/js/2.41e4b2c6.chunk.js.map",
+    "index.html": "/minigames/index.html",
+    "precache-manifest.2e15615117e2d2b39477e45c4a4893cb.js": "/minigames/precache-manifest.2e15615117e2d2b39477e45c4a4893cb.js",
+    "service-worker.js": "/minigames/service-worker.js",
+    "static/css/main.b8a4c64a.chunk.css.map": "/minigames/static/css/main.b8a4c64a.chunk.css.map",
+    "static/js/2.41e4b2c6.chunk.js.LICENSE": "/minigames/static/js/2.41e4b2c6.chunk.js.LICENSE",
+    "static/media/logo.svg": "/minigames/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d6bf7404.js",
+    "static/js/2.41e4b2c6.chunk.js",
+    "static/css/main.b8a4c64a.chunk.css",
+    "static/js/main.b362f975.chunk.js"
+  ]
+}
