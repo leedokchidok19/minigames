@@ -34,7 +34,6 @@ class Gugudan extends Component {
   render(){
     return (
       <div className="gugudan">
-        <h1>구구단 게임</h1>
         <div className="gugudan-exam" title="구구단 문제">
           {this.state.firstNum} 곱하기는 {this.state.lastNum} 는?
         </div>
