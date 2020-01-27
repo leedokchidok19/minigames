@@ -34,7 +34,7 @@ class WordChain extends Component {
   render(){
     return (
       <div className="wordChain">
-        <div className="wordChain-title">{this.state.result}</div>
+        <div className="wordChain-top">{this.state.result}</div>
         <div className="wordChain-middle">
           <form onSubmit={this.wordChain}>
             <input type="text" value={this.state.value} onChange={this.lastAndFirst} />
