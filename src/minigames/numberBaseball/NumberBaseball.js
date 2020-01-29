@@ -30,6 +30,7 @@ class NumberBaseball extends Component {
   }
   throwABall = (e) =>{
     e.preventDefault();
+//    console.log(typeof e.target[0].value); input.type=[number]을 써도 String 타입으로 넘어온다
     var inputNum = Array.from( e.target[0].value );
     var outputNum = Array.from( this.state.numberBaseball );
     var strike = 0;
@@ -45,7 +46,7 @@ class NumberBaseball extends Component {
         ball = ball+1;
       }//if
     }//for
-    if(strike == inputNum.length){
+    if(strike === inputNum.length){
       resultMsg = '홈런!';
       this.startBaseball();
     }else{
@@ -61,7 +62,7 @@ class NumberBaseball extends Component {
     return (
       <div className="numberBaseball">
         <div className="numberBaseball-top">
-          <input type="number" value={this.state.numberBaseball} readOnly/>
+          <input type="hidden" value={this.state.numberBaseball} readOnly/>
           {this.state.baseballMessage}
         </div>
         <div className="numberBaseball-middle">

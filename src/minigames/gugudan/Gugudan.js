@@ -27,6 +27,8 @@ class Gugudan extends Component {
         result:'틀렸습니다.',
       })
     }
+    console.log(this.state.value);
+    e.target.focus();
   }
   gugudanChang = (e) =>  this.setState({
     value:e.target.value

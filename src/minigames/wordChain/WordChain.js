@@ -30,6 +30,7 @@ class WordChain extends Component {
         value:'',
       })
     }
+    e.target[0].focus();
   }
   render(){
     return (

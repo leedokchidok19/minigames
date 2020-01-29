@@ -3,3 +3,6 @@
   height: 540px;
   border: 1px solid black;
 }
+.minigames > ol > li > div{
+  display: none;
+}

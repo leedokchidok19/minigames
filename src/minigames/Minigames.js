@@ -8,27 +8,33 @@ class Minigames extends Component {
   constructor(props){
     super(props);
     this.state = {
-       isActive: false
+       isActive: false,
+       minigamesList:[
+                        {mgtitle:'title-gugudan', mgName:'구구단 게임', module:<Gugudan />},
+                        {mgtitle:'title-wordChain', mgName:'끝말잇기', module:<WordChain />},
+                        {mgtitle:'title-numberBaseball', mgName:'숫자야구', module:<NumberBaseball />},
+                     ],
     }
   }
-  seeGames = () => {
-  if(this.state.isActive === false) this.setState({isActive: true});
-  else this.setState({isActive: false});
+  seeGames = (e) => {
+    var targetTag = e.target.parentElement.children[1];
+    console.log(targetTag.style.display);// none == ''
+    if(targetTag.style.display === 'block') targetTag.style.display = 'none';
+    else targetTag.style.display = 'block';
+//  if(this.state.isActive === false) this.setState({isActive: true});
+  //else this.setState({isActive: false});
   };
-  
+
   render(){
     return (
       <div className="minigames">
         <ol>
-          <li className="title-gugudan">
-            <h1 onClick={this.seeGames}>구구단 게임</h1>{this.state.isActive ? (<Gugudan />) : ('')}
-          </li>
-          <li className="title-wordChain">
-            <h1 onClick={this.seeGames}>끝말잇기</h1>{this.state.isActive ? (<WordChain />) : ('')}
-          </li>
-          <li>
-            <h1 onClick={this.seeGames}>숫자야구</h1>{this.state.isActive ? (<NumberBaseball />) : ('')}
-          </li>
+            {this.state.minigamesList.map( (mg, i) =>{
+              return  <li key={i} className={mg.mgtitle}>
+                        <h1 onClick={this.seeGames}>{mg.mgName}</h1>
+                        <div id={i}>{mg.module}</div>
+                      </li>
+            })}
         </ol>
       </div>
     );
