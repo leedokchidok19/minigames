@@ -3,6 +3,7 @@ import './Minigames.css';
 import Gugudan from './gugudan/Gugudan.js';
 import WordChain from './wordChain/WordChain.js';
 import NumberBaseball from './numberBaseball/NumberBaseball.js';
+import Tictactoe from './tictactoe/Tictactoe.js';
 
 class Minigames extends Component {
   constructor(props){
@@ -13,6 +14,7 @@ class Minigames extends Component {
                         {mgtitle:'title-gugudan', mgName:'구구단 게임', module:<Gugudan />},
                         {mgtitle:'title-wordChain', mgName:'끝말잇기', module:<WordChain />},
                         {mgtitle:'title-numberBaseball', mgName:'숫자야구', module:<NumberBaseball />},
+                        {mgtitle:'title-tictactoe', mgName:'틱택토', module:<Tictactoe />},
                      ],
     }
   }
