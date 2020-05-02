@@ -1,11 +1,15 @@
+:root{
+  --text-color:#f0f4f5;
+  --background-color:rgba(35, 177, 200, 0.2);
+  --accent-color:#d49446;
+}
 .App {
   text-align: center;
-  background-color: rgba(35, 177, 200, 0.2);
   min-height: 100vh;
   display: flex;
+  justify-content: space-between;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: black;
 }
@@ -14,9 +18,20 @@
   height: 2vmin;
   pointer-events: none;
 }
-
+.header{
+  width: 100%;
+  height: 50px;
+}
+.header-logo{
+width: 15%;
+height: 100%;
+}
+.header .logo{
+  width: 100%;
+  height: 100%;
+}
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
+  .App-logo, .header .logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
