@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/minigames/static/css/main.fc3c4c84.chunk.css",
-    "main.js": "/minigames/static/js/main.5a23d63b.chunk.js",
-    "main.js.map": "/minigames/static/js/main.5a23d63b.chunk.js.map",
+    "main.css": "/minigames/static/css/main.42bb7cf5.chunk.css",
+    "main.js": "/minigames/static/js/main.b86af9d9.chunk.js",
+    "main.js.map": "/minigames/static/js/main.b86af9d9.chunk.js.map",
     "runtime-main.js": "/minigames/static/js/runtime-main.d6bf7404.js",
     "runtime-main.js.map": "/minigames/static/js/runtime-main.d6bf7404.js.map",
     "static/js/2.24dd4713.chunk.js": "/minigames/static/js/2.24dd4713.chunk.js",
     "static/js/2.24dd4713.chunk.js.map": "/minigames/static/js/2.24dd4713.chunk.js.map",
     "index.html": "/minigames/index.html",
-    "precache-manifest.fe374f0dbfcde024c29ac5c03ce699e0.js": "/minigames/precache-manifest.fe374f0dbfcde024c29ac5c03ce699e0.js",
+    "precache-manifest.355fadeda77f1dc3133c6f8ccf6d779e.js": "/minigames/precache-manifest.355fadeda77f1dc3133c6f8ccf6d779e.js",
     "service-worker.js": "/minigames/service-worker.js",
-    "static/css/main.fc3c4c84.chunk.css.map": "/minigames/static/css/main.fc3c4c84.chunk.css.map",
+    "static/css/main.42bb7cf5.chunk.css.map": "/minigames/static/css/main.42bb7cf5.chunk.css.map",
     "static/js/2.24dd4713.chunk.js.LICENSE": "/minigames/static/js/2.24dd4713.chunk.js.LICENSE",
     "static/media/logo.svg": "/minigames/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.d6bf7404.js",
     "static/js/2.24dd4713.chunk.js",
-    "static/css/main.fc3c4c84.chunk.css",
-    "static/js/main.5a23d63b.chunk.js"
+    "static/css/main.42bb7cf5.chunk.css",
+    "static/js/main.b86af9d9.chunk.js"
   ]
 }
