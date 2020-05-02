@@ -11,6 +11,9 @@ class App extends Component {
         <div className="header-logo">
           <img className="logo" src={img_logo} title="logo" alt="logo" target="_blank"/>
         </div>
+        <div className="header-h">
+          <h1>목록</h1>
+        </div>
       </header>
         <MinigamesModules />
       </div>
